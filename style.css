@@ -1,0 +1,211 @@
+/* Colors and fonts */
+body{
+	background: white;
+	color: rgb(40,40,40);
+	font-family: garamond;
+	font-size: 17px;
+	font-weight: lighter;
+	width: 700px;
+	margin: 30px auto;
+}
+h1,h2,h3{
+	font-family: garamond;
+	color: black;
+}
+h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+h2{
+	font-size: 24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color:rgb(30,30,30);
+	font-weight: bold;
+}
+a:hover{
+	color:#27496D;
+	cursor: pointer;
+	text-decoration: underline;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.container{
+	background-color: white;
+	padding: 30px
+	border-radius:4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 10px solid black;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-content {
+  margin-left: 200px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  font-family: helvetica;
+  font-size: 17px;
+  font-weight: lighter;
+}
+#progress{
+    width: 300px;
+    margin: auto;
+}
+.Baking { 
+	height: 5px; 
+	position: relative;
+	background:#ededed;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.Baking> span {
+  display: block;
+  height: 140%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #5d5d5d;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+.TheOcean { 
+	height: 5px; 
+	position: relative;
+	background:#ededed;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.TheOcean > span {
+  display: block;
+  height: 140%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #5d5d5d;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+.Sustainability { 
+	height: 5px; 
+	position: relative;
+	background:#ededed;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.Sustainability > span {
+  display: block;
+  height: 140%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #5d5d5d;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+.Photography { 
+	height: 5px; 
+	position: relative;
+	background:#ededed;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.Photography > span {
+  display: block;
+  height: 140%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #5d5d5d;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
